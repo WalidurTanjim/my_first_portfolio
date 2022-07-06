@@ -129,7 +129,7 @@ a{
     border: 1px solid transparent;
     width: 200px;
     text-align: center;
-    margin: 20px 0 0 0;
+    margin: 20px auto;
 }
 
 
@@ -138,7 +138,7 @@ a{
 /*    donate_plan css start    */
 #donate_plan{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     position: relative;
 }
 #donate_plan .inner_plan{
@@ -242,6 +242,58 @@ a{
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+
+
+/*    welcome css start     */
+#welcome{
+    width: 100%;
+    /* padding: 100px 0; */
+    position: relative;
+    height: 300px;
+    /* margin: 100px 0; */
+}
+#welcome .inner_welcome{
+    width: 70%;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+#welcome .inner_welcome .welcome_content{
+    width: 65%;
+    height: 100%;
+}
+#welcome .inner_welcome .welcome_content .welcome_title{
+    font-size: 2rem;
+}
+#welcome .inner_welcome .welcome_content .welcome_para{
+    font-size: 1.2rem;
+    color: #808080;
+    padding-top: 15px;
+}
+#welcome .inner_welcome .welcome_services{
+    width: 35%;
+    height: 100%;
+    margin: 0 20px;
+    /* overflow-y: scroll; */
+}
+#welcome .inner_welcome .welcome_services .welcome_s_h2{
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+}
+#welcome .inner_welcome .welcome_services .scroll_bar{
+    overflow-y: scroll;
+    height: 250px;
+}
+#welcome .inner_welcome .welcome_services .service_item{
+    padding: 5px 5px;
+    color: #808080;
+    border-bottom: 1.5px solid #000000;
 }
 
 
